@@ -21,6 +21,11 @@ Data was loaded into BigQuery for Joins and aggregation to be used for analysis 
 ![data-inside-bigquery](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/c286fd2e-8100-4d97-bba6-39c022d336d7)
 ![joining-tables](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/6d9ea519-a30a-4852-ba43-c0b05bf36782)
 ## Visualizations and Analysis
+![avg-total-amount](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/82f9338b-5c7f-40eb-b380-17af24f5cb36)
+![DIG-1](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/0539d6c4-fa71-4801-a253-b489a2164dab)
+![geo](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/8e365243-b907-47c1-9555-c3c39302b1db)
+![total](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/531e47ed-e875-481b-a77e-650e9f297d88)
+
 
 
 
