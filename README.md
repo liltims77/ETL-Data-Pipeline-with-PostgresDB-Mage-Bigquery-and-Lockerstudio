@@ -3,9 +3,10 @@
 
 ### GETTING STARTED
 ### Firstly docker volume and network was created to mount docker files of Postgres, Pgadmin and Mage.ai. The docker files were run and pandas was used to load data into the database [Note: Try using Spark SQL or Spark dataframe to load a very large set of data] Chunk by chunk. The Postgres database servers as the staging area for the dataset. 
+### Staging Area
+![staging-area](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/82a23ffa-dc23-4fb1-83b1-b8af3ec6015a)
 
+Dataset was converted into Fact and dimension tables , Merged and loaded into Mage.ai tool for transforming and integrating data.
 
-
-Dataset was converted into Fact and dimension tables , Merged and loaded into
 
 
