@@ -1,0 +1,42 @@
+# create a docker network
+docker network create mage-app
+
+
+#create docker volume
+docker volume create --name pg_data -d local
+
+#run postgres database
+docker run -it \
+  -e POSTGRES_USER="postgres" \
+  -e POSTGRES_PASSWORD="<your password>" \
+  -e POSTGRES_DB="uber" \
+  -v pg_data:/var/lib/postgresql/data \
+  -p 5432:5432 \
+  --network=mage-app \
+  --name postgres_container \
+  postgres:13-alpine3.17
+
+#connect to postgres database
+pgcli -h localhost -p 5432 -U postgres -d uber
+
+
+#run pgadmin/ postgres database user interface
+docker run -it \
+  -e PGADMIN_DEFAULT_EMAIL="admin@admin.com" \
+  -e PGADMIN_DEFAULT_PASSWORD="<your password>" \
+  -p 8080:80 \
+  --network=mage-app \
+  --name pgadmin \
+  dpage/pgadmin4
+
+
+#run MAGE user inferface
+docker run -it \
+   --network=mage-app \
+   -p 6789:6789 \
+   -v pg_data:/var/lib/postgresql/data \
+   -e MAGE_DATABASE_CONNECTION_URL=postgresql+psycopg2://postgres:<your password>@host.docker.internal:5432/uber \
+   mageai/mageai \
+   /app/run_app.sh mage start mage-docker
+
+
