@@ -14,6 +14,10 @@ Dataset was converted into Fact and dimension tables , Merged and loaded into Ma
 ![load-data-in-mage](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/6c6d9144-2cb2-4712-a128-8ce5cde9c89c)
 ![load-data-into-bigquery](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/69312909-d773-469f-b2cd-4e45df9ff115)
 ![Mage-data-output](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/b82bbcd8-9154-4a6e-8836-7749eb096ef4)
+### Further Transformation into Fact and Dimension Tables
+![to-dict](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/a6b603a8-893d-412a-b0bc-dd7a520ba671)
+![to-dict-2](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/a346e779-85df-40bd-b560-70ec228fbddb)
+
 
 
 
