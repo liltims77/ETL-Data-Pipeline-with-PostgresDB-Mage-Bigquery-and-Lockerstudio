@@ -6,6 +6,8 @@
 ### Staging Area
 ![staging-area](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/82a23ffa-dc23-4fb1-83b1-b8af3ec6015a)
 ### Fact and Dimension Tables
+![Fact-and-dim-tables](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/eeb5654e-8950-4083-9d63-4322c342185a)
+
 Dataset was converted into Fact and dimension tables , Merged and loaded into Mage.ai tool for transforming and integrating data.The data was further transformed with the Mage transformation tool into dictionary as key and values , then loaded into Bigquery.
 ### Data loaded into Mage
 ![pre-transformaton](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/e1077b28-e9ea-4de4-b7b0-110b7ed2bb76)
