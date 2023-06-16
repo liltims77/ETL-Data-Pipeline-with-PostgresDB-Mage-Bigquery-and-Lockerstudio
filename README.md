@@ -17,7 +17,7 @@ Dataset was converted into Fact and dimension tables , Merged and loaded into Ma
 ### Further Transformation into Dictionary as Key and Value
 ![to-dict](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/a6b603a8-893d-412a-b0bc-dd7a520ba671)
 ![to-dict-2](https://github.com/liltims77/ETL-Data-Pipeline-with-PostgresDB-Mage-Bigquery-and-Lockerstudio/assets/41475769/a346e779-85df-40bd-b560-70ec228fbddb)
-
+Data was loaded into BigQuery for Joins and aggregation to be used for analysis and Visualization
 
 
 
